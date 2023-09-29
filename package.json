@@ -1,0 +1,27 @@
+{
+    "name": "lucia-serverless-neon-http-adapter",
+    "version": "1.0.0",
+    "description": "Adapter for Lucia to connect with pure http neon serverless - Mainly for use with environments where websockets are unavailable (SvelteKit for example)",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pelle-Jensen/lucia-serverless-neon-http-adapter.git"
+    },
+    "keywords": [
+        "lucia",
+        "neon"
+    ],
+    "author": "Pelle Jensen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Pelle-Jensen/lucia-serverless-neon-http-adapter/issues"
+    },
+    "homepage": "https://github.com/Pelle-Jensen/lucia-serverless-neon-http-adapter#readme",
+    "peerDependencies": {
+        "@neondatabase/serverless": "^0.6.0",
+        "lucia": "^2.7.0"
+    }
+}
